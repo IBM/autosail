@@ -1,7 +1,7 @@
 from tabnanny import verbose
 import pytest
 import numpy as np
-from sail.models.river.linear_model import LogisticRegression
+from autosail.models.river.linear_model import LogisticRegression
 
 
 class TestRiverSerialization:

@@ -5,7 +5,7 @@ import numpy as np
 from river import linear_model, optim
 
 
-from sail.models.ensemble.distEWARegressor import DistEWARegressor
+from autosail.models.ensemble.distEWARegressor import DistEWARegressor
 
 tracemalloc.start()
 

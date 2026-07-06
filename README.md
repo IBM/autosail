@@ -1,6 +1,6 @@
 # SAIL
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![main branch](https://github.com/IBM/sail/actions/workflows/build.yml/badge.svg?branch=main) [![](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/) <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![main branch](https://github.com/IBM/autosail/actions/workflows/build.yml/badge.svg?branch=main) [![](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/) <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 
 The library is for experimenting with streaming processing engines (SPEs) and incremental machine learning (IML) models. The main features of Sail are:
 
@@ -12,7 +12,7 @@ The library is for experimenting with streaming processing engines (SPEs) and in
 
 ## Documentation
 
-See the [**SAIL Wiki**](https://github.com/IBM/sail/wiki) for full documentation, installation guide, operational details and other information.
+See the [**SAIL Wiki**](https://github.com/IBM/autosail/wiki) for full documentation, installation guide, operational details and other information.
 
 ## Architecture
 
@@ -41,7 +41,7 @@ Sail could have been parallelized using Spark as well. However, to keep the stre
 Sail is intended to work with **Python 3.8 and above**. You can install the latest version from GitHub as so:
 
 ```sh
-git clone https://github.com/IBM/sail.git
+git clone https://github.com/IBM/autosail.git
 cd sail
 pip install -e ".[OPTION]"
 ```

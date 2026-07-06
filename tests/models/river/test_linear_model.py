@@ -3,8 +3,8 @@ from sklearn import datasets
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 
-from sail.utils.stats import nmse
-from sail.models.river.linear_model import LinearRegression, LogisticRegression
+from autosail.utils.stats import nmse
+from autosail.models.river.linear_model import LinearRegression, LogisticRegression
 
 
 class TestLinearModel:

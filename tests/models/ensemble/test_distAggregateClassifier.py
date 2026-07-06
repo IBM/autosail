@@ -2,10 +2,10 @@ from array import array
 
 import numpy as np
 from river import optim
-from sail.models.river.linear_model import LogisticRegression
+from autosail.models.river.linear_model import LogisticRegression
 from river.datasets import synth
 
-from sail.models.ensemble.distAggregateClassifier import DistAggregateClassifier
+from autosail.models.ensemble.distAggregateClassifier import DistAggregateClassifier
 
 
 def classification_stream():

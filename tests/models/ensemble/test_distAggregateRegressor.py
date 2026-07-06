@@ -2,9 +2,9 @@ from array import array
 from river.datasets import synth
 import numpy as np
 from river import optim
-from sail.models.river.linear_model import LinearRegression
+from autosail.models.river.linear_model import LinearRegression
 
-from sail.models.ensemble.distAggregateRegressor import DistAggregateRegressor
+from autosail.models.ensemble.distAggregateRegressor import DistAggregateRegressor
 
 
 def hyperplane_stream(n_features):

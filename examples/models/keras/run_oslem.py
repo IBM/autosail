@@ -4,7 +4,7 @@ import tensorflow as tf
 from matplotlib import pyplot as plt
 from tensorflow import keras
 
-from sail.models.keras import OSELM
+from autosail.models.keras import OSELM
 
 model = OSELM(
     loss="mae",

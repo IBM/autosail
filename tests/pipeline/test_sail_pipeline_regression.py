@@ -1,4 +1,4 @@
-from sail.pipeline import SAILPipeline
+from autosail.pipeline import SAILPipeline
 
 
 class TestRegressionSAILPipeline:

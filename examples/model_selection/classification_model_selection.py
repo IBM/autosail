@@ -6,9 +6,9 @@ import ray
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 
-from sail.model_selector.holdout_best_model import HoldoutBestModelSelector
-from sail.models.river.linear_model import LogisticRegression
-from sail.models.river.naive_bayes import BernoulliNB
+from autosail.model_selector.holdout_best_model import HoldoutBestModelSelector
+from autosail.models.river.linear_model import LogisticRegression
+from autosail.models.river.naive_bayes import BernoulliNB
 
 ray.init()
 
@@ -17,9 +17,7 @@ scaler = StandardScaler()
 sgd = LogisticRegression()
 bnb = BernoulliNB()
 
-offline_model = HoldoutBestModelSelector(
-    estimators=[sgd, bnb], metrics=accuracy_score
-)
+offline_model = HoldoutBestModelSelector(estimators=[sgd, bnb], metrics=accuracy_score)
 
 # Ingestion
 for index in range(2):

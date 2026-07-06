@@ -7,10 +7,10 @@ from river import stream
 from sklearn.metrics import r2_score
 from sklearn.model_selection import train_test_split
 
-from sail.model_selector.holdout_best_model import HoldoutBestModelSelector
-from sail.models.native.ielm import IELM
-from sail.models.river.linear_model import LinearRegression
-from sail.transformers.river.preprocessing import StandardScaler
+from autosail.model_selector.holdout_best_model import HoldoutBestModelSelector
+from autosail.models.native.ielm import IELM
+from autosail.models.river.linear_model import LinearRegression
+from autosail.transformers.river.preprocessing import StandardScaler
 
 ray.init()
 

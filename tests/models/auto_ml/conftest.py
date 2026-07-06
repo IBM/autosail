@@ -8,13 +8,13 @@ import pytest
 from river import metrics, optim
 from sklearn.impute import SimpleImputer
 
-from sail.models.river.forest import (
+from autosail.models.river.forest import (
     AdaptiveRandomForestClassifier,
     AdaptiveRandomForestRegressor,
 )
-from sail.models.river.linear_model import LinearRegression, LogisticRegression
-from sail.pipeline import SAILPipeline
-from sail.transformers.river.preprocessing import StandardScaler
+from autosail.models.river.linear_model import LinearRegression, LogisticRegression
+from autosail.pipeline import SAILPipeline
+from autosail.transformers.river.preprocessing import StandardScaler
 
 
 @pytest.fixture(scope="module", autouse=True)

@@ -2,9 +2,10 @@
 """
 Based on: https://github.com/skorch-dev/skorch/blob/master/skorch/tests/test_classifier.py
 """
+
 import numpy as np
 import pytest
-from sail.models.torch.onn_hbp import ONNHBPClassifier
+from autosail.models.torch.onn_hbp import ONNHBPClassifier
 from skorch.dataset import ValidSplit
 
 

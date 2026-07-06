@@ -5,7 +5,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sail"
+name = "autosail"
 description = "Python package for streaming data and incremental learning"
 dynamic = [
     "version",
@@ -31,7 +31,7 @@ classifiers = [
 ]
 
 [tool.setuptools.dynamic]
-version = { attr = "sail.__version__" }
+version = { attr = "autosail.__version__" }
 readme = { file = [
     "README.md",
 ], content-type = "text/markdown" }
@@ -45,4 +45,4 @@ where = [
 zip-safe = false
 
 [project.urls]
-repository = "https://github.com/IBM/sail"
+repository = "https://github.com/IBM/autosail"

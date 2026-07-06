@@ -1,10 +1,11 @@
 """Tests for src/tsc.py.
 Based on: https://github.com/skorch-dev/skorch/blob/master/skorch/tests/test_regressor.py
 """
+
 import numpy as np
 import pytest
 import torch
-from sail.models.torch.conv_net import ConvNet
+from autosail.models.torch.conv_net import ConvNet
 
 
 class TestTSC:

@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 import torch
-from sail.models.torch.os_cnn import OSCNNCLassifier
+from autosail.models.torch.os_cnn import OSCNNCLassifier
 
 
 # methods for data generation and preprocessing

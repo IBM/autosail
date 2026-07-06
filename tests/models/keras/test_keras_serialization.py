@@ -1,7 +1,7 @@
 import numpy as np
 
-from sail.models.keras import WGLSTM
-from sail.utils.ts_utils import generate_features_and_targets
+from autosail.models.keras import WGLSTM
+from autosail.utils.ts_utils import generate_features_and_targets
 
 
 class TestKerasSerialization:

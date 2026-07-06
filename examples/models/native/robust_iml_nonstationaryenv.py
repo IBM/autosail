@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from sail.models.native.robust_iml import RoIML_Model
-from sail.models.native.robust_iml import sigmoidActivation
+from autosail.models.native.robust_iml import RoIML_Model
+from autosail.models.native.robust_iml import sigmoidActivation
 
 # load artificial training dataset 1
 np.random.seed(0)

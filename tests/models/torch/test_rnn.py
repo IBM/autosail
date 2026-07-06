@@ -9,7 +9,7 @@ import pytest
 class TestRNN:
     @pytest.fixture
     def net(self):
-        from sail.models.torch.rnn import RNNRegressor
+        from autosail.models.torch.rnn import RNNRegressor
 
         return RNNRegressor(
             input_units=10,

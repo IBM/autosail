@@ -3,10 +3,9 @@
 Based on: https://github.com/skorch-dev/skorch/blob/master/skorch/tests/test_classifier.py
 """
 
-
 import numpy as np
 import pytest
-from sail.models.torch.lstm_fcn import LSTMFCNClassifier
+from autosail.models.torch.lstm_fcn import LSTMFCNClassifier
 
 
 class TestLSTM_FCN:

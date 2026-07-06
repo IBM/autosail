@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 class TestTCN:
     @pytest.fixture
     def net(self):
-        from sail.models.torch.tcn import TCNRegressor
+        from autosail.models.torch.tcn import TCNRegressor
 
         return TCNRegressor(input_dim=10, output_dim=1)
 

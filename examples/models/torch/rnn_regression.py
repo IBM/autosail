@@ -1,5 +1,5 @@
 from array import array
-from sail.models.torch.rnn import RNNRegressor
+from autosail.models.torch.rnn import RNNRegressor
 import matplotlib.pyplot as plt
 import numpy as np
 

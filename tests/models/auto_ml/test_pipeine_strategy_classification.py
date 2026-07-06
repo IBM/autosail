@@ -1,6 +1,6 @@
-from sail.models.auto_ml.auto_pipeline import SAILAutoPipeline
-from sail.models.auto_ml.tune import SAILTuneGridSearchCV
-from sail.drift_detection.drift_detector import SAILDriftDetector
+from autosail.models.auto_ml.auto_pipeline import SAILAutoPipeline
+from autosail.models.auto_ml.tune import SAILTuneGridSearchCV
+from autosail.drift_detection.drift_detector import SAILDriftDetector
 from river.drift.binary import EDDM
 
 

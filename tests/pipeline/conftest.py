@@ -7,12 +7,12 @@ import pandas as pd
 import pytest
 from sklearn.impute import SimpleImputer
 from river import metrics
-from sail.models.river.forest import (
+from autosail.models.river.forest import (
     AdaptiveRandomForestClassifier,
     AdaptiveRandomForestRegressor,
 )
-from sail.pipeline import SAILPipeline
-from sail.transformers.river.preprocessing import StandardScaler
+from autosail.pipeline import SAILPipeline
+from autosail.transformers.river.preprocessing import StandardScaler
 
 
 @pytest.fixture(scope="module", autouse=True)

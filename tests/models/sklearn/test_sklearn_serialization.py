@@ -1,8 +1,8 @@
 from tabnanny import verbose
 import pytest
 import numpy as np
-from sail.models.sklearn.linear_model import SGDClassifier
-from sail.models.sklearn.base import save, load
+from autosail.models.sklearn.linear_model import SGDClassifier
+from autosail.models.sklearn.base import save, load
 
 
 class TestSkleanSerialization:

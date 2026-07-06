@@ -1,6 +1,6 @@
 import pytest
 import numpy as np
-from sail.models.torch import RNNRegressor
+from autosail.models.torch import RNNRegressor
 
 
 class TestTorchSerialization:
